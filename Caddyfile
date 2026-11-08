@@ -1,0 +1,4 @@
+{$BOOKING_DOMAIN} {
+    reverse_proxy booking:8080
+    header Strict-Transport-Security "max-age=31536000"
+}
